@@ -1,0 +1,81 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 50px
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.Orenge-color {
+    color: orange;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.hlaf-width {
+    width: 44%;
+    padding-left: 2%;
+}
+
+.hlaf-width img {
+    width: 100%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 40px;
+}
+
+.Experiance-iteam {
+    width: 40%;
+    margin-left: 15px;
+    margin-right: 19px;
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.Experiance-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#web {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#promar {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+}
